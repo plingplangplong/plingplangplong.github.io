@@ -1,0 +1,22 @@
+#center{
+    position: absolute;
+    left: 25%;
+}
+
+table{
+    table-layout: fixed;
+    height: 100% ;
+}
+
+td{
+    vertical-align: top;
+}
+
+.middle{
+    vertical-align: middle;
+}
+
+#adres {
+    width: 200px;
+    height: 50px;
+}

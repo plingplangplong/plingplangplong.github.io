@@ -1,0 +1,19 @@
+table {
+    background-color: yellow;
+}
+
+body {
+    font-family: Arial;
+}
+
+a:hover {
+    color: green;
+}
+
+h1.red {
+    color: red;
+}
+
+h1.green {
+    color: green;
+}
