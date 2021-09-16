@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Media Pages</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="active-nav-home-4.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        function discord(){
+            navigator.clipboard.writeText("cassette.#0285");
+            alert("Discord ID gekopieerd naar je klembord");
+        }
+
+        function snapchat(){
+            navigator.clipboard.writeText("ijsbrand.word");
+            alert("Snapchat gebruikersnaam gekopieerd naar je klembord");
+        }
+    </script>
+</head>
+<body>
+<header>
+    <nav class="navigation">
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link-1" href="index.html" title="Ga naar de homepage">Home</a></li>
+            <li class="nav-item"><a class="nav-link-2" href="html-opdrachten.html" title="Ga naar mijn gemaakte HTML opdrachten">HTML</a></li>
+            <li class="nav-item"><a class="nav-link-3" href="java-opdrachten.html" title="Ga naar mijn gemaakte Java opdrachten">Java</a></li>
+            <li class="nav-item"><a class="nav-link-4 nav-link-active" href="socials.html" title="Ga naar mijn social media pagina's">Socials</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="nav2-card-container">
+    <h1 id="nav2-title">Social media:</h1>
+    <div class="center-nav3-buttons">
+        <div class="nav3-button-container nav3-button-container-1">
+            <a class="nav3-link" onclick="discord();" title="Kopieer Discord ID">
+                <div class="nav3-button-shadow"><img class="nav3-buttons" src="uno-cards/discord.png" alt="Discord"></div>
+            </a>
+        </div>
+        <div class="nav3-button-container nav3-button-container-2">
+            <a class="nav3-link" href="https://www.instagram.com/broodje.paling" title="@broodje.paling" target=”_blank”>
+                <div class="nav3-button-shadow"><img class="nav3-buttons" src="uno-cards/instagram.png" alt="Instagram"></div>
+            </a>
+        </div>
+
+        <div class="nav3-button-container nav3-button-container-3">
+            <a class="nav3-link" href="https://open.spotify.com/user/j74fjkslxayz520veun0ywf3m?si=8f35a6701ca54607" title="Spotify Profile" target=”_blank”>
+                <div class="nav3-button-shadow"><img class="nav3-buttons" src="uno-cards/spotify.png" alt="Spotify"></div>
+            </a>
+        </div>
+        <div class="center-nav3-buttons">
+            <div class="nav3-button-container nav3-button-container-4">
+                <a class="nav3-link" onclick="snapchat();" title="Kopieer Snapchat gebruikersnaam">
+                    <div class="nav3-button-shadow"><img class="nav3-buttons" src="uno-cards/snap.png" alt="Snapchat"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <p id="shoutout">SO naar <a id="so-link" href="https://www.instagram.com/lucas_alders/" target=”_blank” title="Lucas z'n Insta">Lucas</a> voor het idee van een Uno theme.</p>
+</div>
+</body>
+</html>

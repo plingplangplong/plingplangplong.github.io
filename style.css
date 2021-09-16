@@ -79,13 +79,6 @@ header {
     padding:50px;
 }
 
-.center-nav2-cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 .about-container div {
     min-height:180px;
 }
@@ -125,10 +118,16 @@ header {
     padding: 20px;
 }
 
+.center-nav2-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 #nav2-title {
     text-align: center;
     padding: 20px;
-
 }
 
 .uno-nav-cards {
@@ -204,4 +203,45 @@ header {
 }
 .uno-card-container-7 a {
     color: #F2CB07;
+}
+
+/* Socials nav */
+
+.center-nav3-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav3-button-container {
+    margin: 20px;
+    padding: 10px;
+    float: left;
+    width:120px;
+    height:123px;
+    position:relative;
+}
+
+.nav3-button-shadow {
+    display:inline-block;
+    padding: 10px;
+    border-radius:20px;
+    box-shadow:0 0 5px gray;
+}
+
+.nav3-buttons {
+    width: 100px;
+    height: 100px;
+}
+
+#so-link {
+    text-decoration:none;
+    font-weight: 600;
+    color: #BF0404;
+}
+
+#shoutout {
+    padding: 25px;
+    text-align: center;
 }
